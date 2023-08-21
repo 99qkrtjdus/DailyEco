@@ -2,7 +2,8 @@
 
 ## 어플개발
 <img width="" height="" src="./img/슬라이드1.PNG"></img>
-### [layout 코드 보러가기](https://github.com/99qkrtjdus/코드/app/src/main/res/layout)
+### [layout 코드 보러가기](https://github.com/99qkrtjdus/DailyEco/tree/main/%EC%BD%94%EB%93%9C/app/src/main/res/layout)
+### [java 코드 보러가기](https://github.com/99qkrtjdus/DailyEco/tree/main/%EC%BD%94%EB%93%9C/app/src/main/java/com/example/sample)
 
 ## 팀원소개
 대학동기들과 함께 개발한 어플.
