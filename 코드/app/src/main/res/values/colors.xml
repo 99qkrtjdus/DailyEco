@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="bgc">#CC65CDAA</color>
+    <color name="main">#FEE134</color>
+    <color name="bgc2">#e6f7f7</color>
+
+    <!--<color name="colorPrimary">#52BCDC</color>-->
+    <color name="schedule_week_view_line">#EEEEEE</color>
+    <!--<color name="colorPrimaryDark">#59C4E4</color>-->
+    <color name="colorPrimaryDark">@color/header</color>
+
+    <!--<color name="colorAccent">#52BCDC</color>-->
+    <color name="colorAccent">@color/header</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="login_gray">#cccccc</color>
+    <color name="color_skimcorp">#52BCDC</color>
+
+    <color name="compare_increase">#39B54A</color>
+    <color name="compare_decrease">#BE1E2D</color>
+    <color name="compare_zero">#808080</color>
+    <color name="compare_even">#333333</color>
+
+    <color name="coming_soon">#59C4E4</color>
+    <color name="branch_name_box">#C9EBFF</color>
+
+
+    <color name="graph_gray">#dddddd</color>
+
+    <color name="navigation_menu">#DDDDDD</color>
+    <color name="table_header">#C8EBFF</color>
+
+    <color name="lighter_gray">#ddd</color>
+
+    <color name="period_report_table_green">#39B54A</color>
+    <color name="period_report_table_red">#BE1E2D</color>
+    <color name="period_report_table_gray">#808080</color>
+
+    <color name="appcompat_light_white">#fffafafa</color>
+
+    <color name="dialog_chart_vertical_line">#cccccc</color>
+    <color name="dialog_chart_line">#FFC400</color>
+
+
+
+    <color name="report_table_header_text">#5B5B5B</color>
+
+    <color name="site_comparison_location">#F0D3A7</color>
+
+
+
+
+
+
+    <color name="bargraph_axis">#C0C0C0</color>
+    <color name="bargraph_grid">#EEEEEE</color>
+    <color name="bargraph_label">#B3393040</color>
+
+
+    <color name="colorPrimary">@color/header</color>
+    <color name="header">#0898D8</color>
+    <color name="background_gray">#EEEEEE</color>
+    <color name="color_gray">#5B5B5B</color>
+    <color name="color_sky">#C8EBFF</color>
+    <color name="color_text">#393C40</color>
+    <color name="divider">#C0C0C0</color>
+    <color name="color_hint">#D0D0D0</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_position">#36BFC7</color>
+    <color name="ripple">#C0C0C0</color>
+    <color name="dialog_percentage">#0898D8</color>
+    <color name="log_date">#0898D8</color>
+    <color name="report_date_text">#5B5B5B</color>
+    <color name="multi_calendar_day">#5B5B5B</color>
+    <color name="increase">#6D988A</color>
+    <color name="decrease">#FA6856</color>
+    <color name="emphasis">#FA6856</color>
+    <color name="schedule_week_view_title">#F7ECD6</color>
+
+    <color name="bargraph_color_1">#F0B43C</color>
+    <color name="bargraph_color_2">#6D988A</color>
+    <color name="bargraph_color_3">#FA6856</color>
+
+    <color name="report_graph_color1">#80F0B43C</color>
+    <color name="report_graph_color2">#800898D8</color>
+    <color name="report_graph_color3">#80FA6856</color>
+    <color name="report_graph_color4">#80F0D3A7</color>
+    <color name="report_graph_color5">#806D988A</color>
+    <color name="report_graph_color6">#8036BFC7</color>
+
+    <color name="time_color">#0898D8</color>
+    <color name="dialog_time_color">#36BFC7</color>
+
+    <color name="highest_time_color">#FA6856</color>
+    <color name="disable_color">#CCCCCC</color>
+
+    <color name="gray">#808080</color>
+    <color name="dark_gray">#373737</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_variant">#ff565e6b</color>
+    <color name="green">#6D988A</color>
+    <color name="dark_green">#006666</color>
+    <color name="green_variant">#2FBCA1</color>
+    <color name="yellow">#FEBD69</color>
+    <color name="pink">#4DFA6856</color>
+</resources>

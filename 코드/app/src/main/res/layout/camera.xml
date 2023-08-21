@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/bgc">
+
+        <ImageView
+            android:id="@+id/maintransBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lbtn"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="4"
+            android:fontFamily="@font/fontb"
+            android:text="Daily ECO"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/fontb"
+            android:text="[ 12월 06일 ]"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="23sp" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fontb"
+            android:text="챌린지 참여 인증을 위한 사진을 업로드 하시겠습니까?"
+            android:textAlignment="center"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/cBtn"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:paddingStart="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/camerabtn"
+            android:background="@drawable/radius3"
+            android:elevation="@android:dimen/app_icon_size"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:background="@color/white"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="업로드"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fontb"
+            android:background="@drawable/radius4"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

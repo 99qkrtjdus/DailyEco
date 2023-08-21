@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/bgc">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/app_icon"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:fontFamily="@font/font"
+            android:text="Daily ECO"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/onClickMp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/mypaage"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:id="@+id/topDateLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/beforeIB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_previous"
+                android:background="@color/white"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/dateTV"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="date"
+                android:textSize="20sp"/>
+
+            <ImageButton
+                android:id="@+id/afterIB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_next"
+                android:background="@color/white"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_global"
+            android:id="@+id/caldalLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/border"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="-1.1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_sunday" />
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="-1.1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_monday" />
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="-1.1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_tueday" />
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="-1.1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_wedday" />
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="-1.1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_thuday" />
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="-1.1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_friday" />
+
+                <TextView
+                    style="@style/content_gray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/short_satday" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/border"/>
+            <!--달력뷰-->
+
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/calendarRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="7"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11월 26일"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bmyeonsung_otf"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/pagebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" [ 아무것도 사지 않는 날 ]"
+                android:textSize="18sp"
+                android:textColor="@color/bgc"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/bmyeonsung_otf"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rectangle"
+                android:layout_marginTop="1dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bottle"/>
+
+            <TextView
+                android:id="@+id/txtBtn"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="텀블러 사용하기"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/bmyeonsung_otf"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rectangle2"
+                android:layout_marginTop="1dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/walk"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="대중교통 이용한 탄소절약"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/bmyeonsung_otf"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rectangle3"
+                android:layout_marginTop="1dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ecobag"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:text="쇼핑할 때 봉지말고 가방 사용하기"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:fontFamily="@font/bmyeonsung_otf"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

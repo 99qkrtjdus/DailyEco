@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/bgc">
+
+        <ImageView
+            android:id="@+id/mtBtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lbtn"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="4"
+            android:fontFamily="@font/fontb"
+            android:text="My Deco"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/three"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="마일리지"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/fontb"
+                android:textSize="16sp"/>
+
+            <ProgressBar
+                android:id="@+id/pregressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="240dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:max="365"
+                android:progress="228"
+                android:progressDrawable="@drawable/progressbar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="발급"
+                android:textSize="16sp"
+                android:fontFamily="@font/fontb"
+                android:theme="@style/mileagebtn"
+                android:textColor="#404f6e"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/radius2"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:background="#f1f3f5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/t" />
+
+            <TextView
+                android:id="@+id/tumbler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:text="텀블러 사용하기"
+                android:textColor="#002266"
+                android:textSize="20dp"
+                android:fontFamily="@font/fontb"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="141dp"
+                android:layout_gravity="center"
+                android:text="85회"
+                android:textColor="#868e96"
+                android:fontFamily="@font/fontb"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:background="#dee2e6"
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/w" />
+
+            <TextView
+                android:id="@+id/walk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:text="대중교통을 이용한 탄소절약"
+                android:textColor="#002266"
+                android:textSize="20dp"
+                android:fontFamily="@font/fontb"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/traText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="49dp"
+                android:layout_gravity="center"
+                android:text="80회"
+                android:textColor="#868e96"
+                android:fontFamily="@font/fontb"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <View
+            android:background="#dee2e6"
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/s" />
+
+            <TextView
+                android:id="@+id/shopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:text="봉투 말고 가방 사용하기"
+                android:textColor="#002266"
+                android:textSize="20dp"
+                android:fontFamily="@font/fontb"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_gravity="center"
+                android:text="63회"
+                android:textColor="#868e96"
+                android:fontFamily="@font/fontb"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

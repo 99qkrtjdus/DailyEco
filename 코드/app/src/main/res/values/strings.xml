@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DailyECO</string>
+    <string name="short_monday">MON</string>
+    <string name="short_tueday">TUE</string>
+    <string name="short_wedday">WED</string>
+    <string name="short_thuday">THU</string>
+    <string name="short_friday">FRI</string>
+    <string name="short_satday">SAT</string>
+    <string name="short_sunday">SUN</string>
+</resources>

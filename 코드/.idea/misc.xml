@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/background_border_abc.xml" value="0.1" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/blackline.xml" value="0.1" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/btn.xml" value="0.1065" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/camerabtn.xml" value="0.1" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/progressbar.xml" value="0.169" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/rectangle.xml" value="0.131" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/rectangle2.xml" value="0.1405" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/rectangle3.xml" value="0.1405" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/font/font.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/activity_main.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/camera.xml" value="0.16" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/loading.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/login.xml" value="0.2" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/mileage.xml" value="0.264" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/mileage_bonus.xml" value="0.1466438648995297" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/mypage.xml" value="0.152" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/layout/page.xml" value="0.1" />
+        <entry key="..\:/Users/i5/AndroidStudioProjects/sample/app/src/main/res/xml/file_paths.xml" value="0.14365113296280463" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
